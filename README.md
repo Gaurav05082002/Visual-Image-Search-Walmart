@@ -1,7 +1,12 @@
-﻿# Visual_Image_Search | [SHORT_DEMO_VIDEO_LINK](https://youtu.be/YlY53hB3sj8) |
+# Visual_Image_Search | [SHORT_DEMO_VIDEO_LINK](https://youtu.be/iCQ4y5KUKwE) |
+ ![image](https://github.com/user-attachments/assets/b23b7c35-521c-4343-8929-06f8253bc5b6)
+ ![image](https://github.com/user-attachments/assets/3b0db809-c770-427f-8f9b-ca2a51c38af4)
+
+
+
 # Testing
 
-**Run** [Main_Searching_Model_Script.ipynb](https://github.com/Gaurav05082002/Visual_Image_Search/blob/main/Main_Searching_Model_Script.ipynb) **in a notebook environment for seeing completely error-free working demo** Please refer to the [Setting up the environment](https://github.com/Gaurav05082002/Visual_Image_Search?tab=readme-ov-file#setting-up-the-environment) section for detailed setup instructions. 
+**Run** [Main_Searching_Model_Script.ipynb](https://github.com/Gaurav05082002/Visual-Image-Search-Walmart/blob/main/Main_Searching_Model_Script.ipynb) **in a notebook environment for seeing completely error-free working demo** Please refer to the [Setting up the environment](https://github.com/Gaurav05082002/Visual-Image-Search-Walmart/blob/main/README.md#setting-up-the-environment) section for detailed setup instructions. 
 
 Currently, our model is trained mostly on **women's wear products**, so please use traditional wear images like saree, kurta, etc., as input.
 
@@ -26,13 +31,13 @@ Currently, our model is trained mostly on **women's wear products**, so please u
 
 ### Part 2: Shopping from Prime Videos
 
-**When watching Prime Video, clicking the "Shop Now" button sends the video's time frame/screenshot to this model ( written as part 2 in [Main_Searching_Model_Script.ipynb](https://github.com/Gaurav05082002/Visual_Image_Search/blob/main/Main_Searching_Model_Script.ipynb)  file.** The model give cutouts of products in video frame then user select the product cutout which he wants to search, once selected it returns a link to a similar product from our demo data on which the model is trained. In the future, the model can be trained on millions of product images to return exact matches.
+**When watching Prime Video, clicking the "Shop Now" button sends the video's time frame/screenshot to this model ( written as part 2 in [Main_Searching_Model_Script.ipynb](https://github.com/Gaurav05082002/Visual-Image-Search-Walmart/blob/main/Main_Searching_Model_Script.ipynb)  file.** The model give cutouts of products in video frame then user select the product cutout which he wants to search, once selected it returns a link to a similar product from our demo data on which the model is trained. In the future, the model can be trained on millions of product images to return exact matches.
 
 ## Data Used
 
 ### Scraped Data
 
-We scraped data from Amazon products using [amazon_scrapper.ipynb](https://github.com/Gaurav05082002/Visual_Image_Search/blob/main/Data%20Scraper/amazon_scraper.ipynb). The model utilized around 4000+ products from the following categories, each file containing approximately 100 products summed up in `all_combined.csv`:
+We scraped data from Amazon products using [amazon_scrapper.ipynb](https://github.com/Gaurav05082002/Visual-Image-Search-Walmart/blob/main/Data%20Scraper/amazon_scraper.ipynb). The model utilized around 4000+ products from the following categories, each file containing approximately 100 products summed up in `all_combined.csv`:
 
 - `women professional dress`
 - `women party wear`
@@ -64,4 +69,4 @@ We scraped data from Amazon products using [amazon_scrapper.ipynb](https://githu
 - `televisions`
 - `washing machines`
 
-All these data files can be found in the [Scraped Data folder]().
+All these data files can be found in the [Scraped Data folder](https://github.com/Gaurav05082002/Visual-Image-Search-Walmart/tree/main/Data%20Scraper/Scraped%20Data).
