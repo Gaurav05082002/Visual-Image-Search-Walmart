@@ -64,4 +64,4 @@ We scraped data from Amazon products using [amazon_scrapper.ipynb](https://githu
 - `televisions`
 - `washing machines`
 
-All these data files can be found in the [Scraped Data folder](https://github.com/Gaurav05082002/Visual_Image_Search/tree/main/Data%20Scraper/Scraped%20Data).
+All these data files can be found in the [Scraped Data folder]().
